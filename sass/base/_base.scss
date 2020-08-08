@@ -1,0 +1,13 @@
+*,
+*::after,
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 10px;  do not use static px here, otherwise use wont be able to 
+    change the browser font -size */
+    font-size: 62.5%; /* to get 10px font size, we take browser default 
+    font-size which is 16px then get 62.5% of 16px = 10px */
+}
